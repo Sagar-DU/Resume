@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  25 JUL 2026 01:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  25 JUL 2026 02:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -422,34 +422,13 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 9.35pt on input line 117.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.5pt on input line 117.
-LaTeX Font Info:    Calculating math sizes for size <9.35> on input line 123.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-)
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.54497> not available
-(Font)              size <7> substituted on input line 123.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.54497> not available
-(Font)              size <7> substituted on input line 123.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.54497> not available
-(Font)              size <7> substituted on input line 123.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.35> on input line 123.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.54497> on input line 123.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.675> on input line 123.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 175.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 172.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.35pt on input line 175.
+(Font)              scaled to size 9.35pt on input line 172.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (./Nahid_Hasan_Sagar_Resume.aux)
@@ -474,7 +453,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,1110b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on Nahid_Hasan_Sagar_Resume.pdf (1 page, 166604 bytes).
+Output written on Nahid_Hasan_Sagar_Resume.pdf (1 page, 166054 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
