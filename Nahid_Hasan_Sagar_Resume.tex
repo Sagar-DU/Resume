@@ -1,0 +1,298 @@
+\documentclass[10pt,letterpaper]{article}
+
+% =========================================================
+% PAGE AND FONT SETUP
+% =========================================================
+\usepackage[
+  letterpaper,
+  left=0.48in,
+  right=0.48in,
+  top=0.40in,
+  bottom=0.36in
+]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{xurl}
+\usepackage{microtype}
+
+\pagestyle{empty}
+\raggedbottom
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{2em}
+
+\urlstyle{same}
+
+% Improve PDF text extraction and ATS readability.
+\IfFileExists{glyphtounicode.tex}{%
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+}{}
+
+% =========================================================
+% SECTION FORMATTING
+% =========================================================
+\titleformat{\section}
+  {\bfseries\fontsize{10.5}{11}\selectfont}
+  {}{0pt}{}
+  [\vspace{1.2pt}\titlerule]
+
+\titlespacing*{\section}
+  {0pt}
+  {5.0pt}
+  {3.0pt}
+
+% =========================================================
+% REUSABLE COMMANDS
+% =========================================================
+\newcommand{\resumeEntry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}%
+}
+
+\newcommand{\projectEntry}[2]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \textit{#2}
+  \end{tabularx}%
+}
+
+\newenvironment{resumeItems}{%
+  \begin{itemize}[
+    label=\textbullet,
+    leftmargin=14pt,
+    labelsep=5pt,
+    itemsep=0.5pt,
+    topsep=1.0pt,
+    parsep=0pt,
+    partopsep=0pt
+  ]
+}{%
+  \end{itemize}
+}
+
+\newcommand{\contactsep}{\qquad}
+
+\begin{document}
+
+\fontsize{9.35}{10.85}\selectfont
+
+% =========================================================
+% HEADER
+% =========================================================
+\begin{center}
+  {\fontsize{17}{19}\selectfont
+   \textbf{Nahid Hasan Sagar}}\\[2.2pt]
+
+  {\fontsize{8.8}{10}\selectfont
+    \faMapMarker*\, Bloomington, Indiana
+    \contactsep
+    \href{tel:+19309041643}{\faPhone*\, +1 (930) 904-1643}
+    \contactsep
+    \href{mailto:nahidhasansagar@gmail.com}{\faEnvelope\, nahidhasansagar@gmail.com}
+  }\\[-0.2pt]
+
+  {\fontsize{8.8}{10}\selectfont
+    \href{https://www.linkedin.com/in/nahidhasansagar/}{\faLinkedinIn\, linkedin.com/in/nahidhasansagar}
+    \contactsep
+    \href{https://github.com/Sagar-DU}{\faGithub\, github.com/Sagar-DU}
+  }
+\end{center}
+
+\vspace{-5pt}
+
+% =========================================================
+% PROFESSIONAL SUMMARY
+% =========================================================
+\section*{PROFESSIONAL SUMMARY}
+
+M.S. candidate in Statistical Science with experience in Bayesian
+modeling, time-series research, regression analysis, statistical
+learning, and scientific computing. Develops and benchmarks research
+software in R, C++, and Rcpp, including Bayesian neuroimaging methods
+that achieved a 4--5$\times$ computational speedup. Combines rigorous
+graduate training with university teaching experience and nine years
+of quantitative instruction.
+
+% =========================================================
+% EDUCATION
+% =========================================================
+\section*{EDUCATION}
+
+\resumeEntry
+  {Indiana University, College of Arts and Sciences}
+  {Bloomington, IN}
+  {Master of Science in Statistical Science \textnormal{| GPA: 3.68/4.00}}
+  {Expected May 2027}
+
+\vspace{0.4pt}
+
+\textit{Thesis: Time-Series Analysis Using Bayesian Additive Regression
+Trees (BART)}
+
+\vspace{0.5pt}
+
+\textbf{Graduate Coursework:}
+Introduction to Statistical Computing; Applied Statistical Computing;
+Fundamentals of Statistics I--II; Applied Linear Models I--II
+
+\vspace{0.3pt}
+
+\textbf{Current Coursework:}
+Statistical Consulting; Research in Statistics;
+Introduction to Analysis I
+
+\vspace{2.2pt}
+
+\resumeEntry
+  {University of Dhaka}
+  {Dhaka, Bangladesh}
+  {Bachelor of Science in Physics}
+  {August 2024}
+
+% =========================================================
+% EXPERIENCE
+% =========================================================
+\section*{EXPERIENCE}
+
+\resumeEntry
+  {Research Assistant, STATMind Lab}
+  {2025 -- Present}
+  {Indiana University Bloomington}
+  {Bloomington, IN}
+
+\begin{resumeItems}
+  \item Develop computational methods to improve the efficiency and
+  scalability of Bayesian neuroimaging pipelines using R, C++, and Rcpp.
+
+  \item Achieved a 4--5$\times$ speedup in Bayesian neuroimaging
+  algorithms and benchmarked performance using simulated and real
+  fMRI data.
+
+  \item Build reproducible benchmarking workflows to compare runtime,
+  scalability, and computational performance across implementations.
+\end{resumeItems}
+
+\vspace{1.3pt}
+
+\resumeEntry
+  {Teaching Assistant, Department of Statistics}
+  {2025 -- Present}
+  {Indiana University Bloomington}
+  {Bloomington, IN}
+
+\begin{resumeItems}
+  \item Support undergraduate Statistics for Life Sciences courses
+  through classroom instruction, discussion sections, and
+  individualized guidance.
+
+  \item Evaluate approximately 200 assignments per grading cycle and
+  provide detailed feedback on statistical reasoning, computation,
+  and interpretation.
+
+  \item Conduct weekly office hours and exam-review sessions to
+  strengthen students' conceptual understanding and problem-solving
+  skills.
+\end{resumeItems}
+
+\vspace{1.3pt}
+
+\resumeEntry
+  {Senior Mathematics Instructor}
+  {2016 -- 2025}
+  {Udvash Academic \& Admission Care}
+  {Dhaka, Bangladesh}
+
+\begin{resumeItems}
+  \item Taught and mentored more than 10,000 students through
+  classroom instruction and national online learning platforms.
+
+  \item Prepared students for competitive university admission
+  examinations through structured lessons, practice materials,
+  and academic planning.
+
+  \item Translated advanced mathematical concepts into accessible
+  problem-solving strategies for students with varied educational
+  backgrounds.
+\end{resumeItems}
+
+% =========================================================
+% RESEARCH AND PROJECTS
+% =========================================================
+\section*{SELECTED RESEARCH \& PROJECTS}
+
+\projectEntry
+  {M.S. Thesis: Time-Series Analysis Using BART}
+  {R, Bayesian Modeling}
+
+\begin{resumeItems}
+  \item Conduct thesis research on the use of Bayesian Additive
+  Regression Trees for time-series analysis under the supervision
+  of Dr.\ Pratola.
+\end{resumeItems}
+
+\vspace{0.7pt}
+
+\projectEntry
+  {Ordinary Least Squares from Scratch}
+  {Python, NumPy, GitHub}
+
+\begin{resumeItems}
+  \item Develop an educational implementation of ordinary least
+  squares regression from first principles, emphasizing
+  matrix-based estimation and transparent statistical computation.
+\end{resumeItems}
+
+% =========================================================
+% TECHNICAL SKILLS
+% =========================================================
+\section*{TECHNICAL SKILLS}
+
+\textbf{Statistical Methods:}
+Bayesian inference, BART, MCMC, hierarchical modeling, time-series
+analysis, linear and logistic regression, mixed-effects models,
+bootstrap methods, experimental design, and model selection
+
+\textbf{Statistical Learning:}
+Ridge regression, lasso, decision trees, random forests, boosting,
+cross-validation, classification metrics, and predictive model
+evaluation
+
+\textbf{Programming:}
+R, Python, C++, Rcpp
+
+\textbf{Computing and Tools:}
+Stochastic simulation, numerical optimization, algorithm benchmarking,
+code profiling, unit testing, Git, GitHub, LaTeX, RStudio, and VS Code
+
+\textbf{Languages:}
+Bengali (native), English (fluent), Hindi (conversational),
+Urdu (conversational)
+
+% =========================================================
+% LEADERSHIP AND HONORS
+% =========================================================
+\section*{LEADERSHIP \& HONORS}
+
+\begin{resumeItems}
+  \item Attended the 2026 Velocity Conference at UC Berkeley as an
+  Indiana University nominee.
+
+  \item Collaborated on the development of a comprehensive online
+  Linear Algebra curriculum during the COVID-19 pandemic.
+
+  \item Co-organized the Australian Mathematics Competition in
+  Bangladesh in 2014.
+\end{resumeItems}
+
+\end{document}
