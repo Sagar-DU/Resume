@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1784963978.23286 "/Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Nahid_Hasan_Sagar_Resume.tex" "Nahid_Hasan_Sagar_Resume.pdf" "Nahid_Hasan_Sagar_Resume" 1784963978.73135 0
-  "/Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Nahid_Hasan_Sagar_Resume.tex" 1784963978.13531 8248 01649551bc41f6bf0481565954c425dd ""
+["pdflatex"] 1784964480.28654 "/Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Nahid_Hasan_Sagar_Resume.tex" "Nahid_Hasan_Sagar_Resume.pdf" "Nahid_Hasan_Sagar_Resume" 1784964480.78478 0
+  "/Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Nahid_Hasan_Sagar_Resume.tex" 1784964480.09376 8148 026c1d3dd4fa2e734f3005bb5c31e541 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -8,9 +8,6 @@
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1529098226 3124 3813fd4c981d99822890a2861b0d274c ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1136768653 1524 d89e2d087a9828407a196f428428ef4a ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1136768653 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm" 1651520503 1380 a61d7c2860b3f6d342213a6b9b229e9e ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm" 1622837620 1316 1c2ee668ea88be9bd4f39690662cc344 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm" 1622837620 1340 b21002f38a477f345fa9dc96a5613e2b ""
@@ -18,7 +15,7 @@
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm" 1708895146 11524 8ba2f557ba7dc63d1e9e4c8cc65c9b60 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm" 1708895146 11580 86fb9f1fbe830bcc3e5ca9d9fb704e6b ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm" 1255129411 1600 20cdf11dab97d5d39e847571f9314407 ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1248133631 32442 c975af247b6702f7ca0c299af3616b80 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb" 1651520503 204258 177851ae99767090543ae24e73c92f2f ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb" 1651520503 295323 d099723373a00cc17d5ae0c9738bb5b3 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb" 1698694482 255251 958c6ad4e5518904a53cf1118c612893 ""
@@ -102,9 +99,9 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784933458 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1774209607 3636776 dc5fa9b6b1453b9d196cd42edf876004 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "Nahid_Hasan_Sagar_Resume.aux" 1784963978.66654 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "Nahid_Hasan_Sagar_Resume.out" 1784963978.51862 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Nahid_Hasan_Sagar_Resume.tex" 1784963978.13531 8248 01649551bc41f6bf0481565954c425dd ""
+  "Nahid_Hasan_Sagar_Resume.aux" 1784964480.70871 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "Nahid_Hasan_Sagar_Resume.out" 1784964480.58036 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Nahid_Hasan_Sagar_Resume.tex" 1784964480.09376 8148 026c1d3dd4fa2e734f3005bb5c31e541 ""
   (generated)
   "Nahid_Hasan_Sagar_Resume.aux"
   "Nahid_Hasan_Sagar_Resume.log"

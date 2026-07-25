@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  25 JUL 2026 03:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  25 JUL 2026 03:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,32 +403,30 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.35pt on input line 88.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.0pt on input line 95.
+(Font)              scaled to size 17.28pt on input line 95.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.0pt on input line 95.
+(Font)              scaled to size 17.28pt on input line 95.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 97.
+(Font)              scaled to size 8.0pt on input line 97.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 98.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 102.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 106.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8.8> not available
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.35pt on input line 117.
+(Font)              scaled to size 10.0pt on input line 117.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.5pt on input line 117.
+(Font)              scaled to size 12.0pt on input line 117.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 171.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.35pt on input line 171.
+(Font)              scaled to size 10.0pt on input line 171.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (./Nahid_Hasan_Sagar_Resume.aux)
@@ -436,27 +434,22 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.45503pt have occurred.
-
 Package rerunfilecheck Info: File `Nahid_Hasan_Sagar_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16514 strings out of 467525
- 285234 string characters out of 5418982
- 738174 words of memory out of 5000000
- 45192 multiletter control sequences out of 15000+600000
- 655703 words of font info for 78 fonts, out of 8000000 for 9000
+ 16499 strings out of 467525
+ 284949 string characters out of 5418982
+ 738152 words of memory out of 5000000
+ 45176 multiletter control sequences out of 15000+600000
+ 652104 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,1110b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on Nahid_Hasan_Sagar_Resume.pdf (1 page, 166030 bytes).
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on Nahid_Hasan_Sagar_Resume.pdf (1 page, 166249 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 19969 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 17921 words of extra memory for PDF output out of 20736 (max. 10000000)
 

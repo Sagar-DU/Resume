@@ -170,7 +170,6 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
@@ -187,12 +186,9 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome5/ufontawesomebran
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
@@ -209,7 +205,7 @@ INPUT ./Nahid_Hasan_Sagar_Resume.out
 INPUT ./Nahid_Hasan_Sagar_Resume.out
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb
