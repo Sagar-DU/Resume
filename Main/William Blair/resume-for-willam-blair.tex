@@ -1,0 +1,257 @@
+\documentclass[10pt,letterpaper]{article}
+
+% =========================================================
+% PAGE AND FONT SETUP
+% =========================================================
+\usepackage[
+	letterpaper,
+	left=0.48in,
+	right=0.48in,
+	top=0.30in,
+	bottom=0.36in
+]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{xurl}
+\usepackage{microtype}
+
+\pagestyle{empty}
+\raggedbottom
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{2em}
+
+\urlstyle{same}
+
+% Improve PDF text extraction and ATS readability.
+\IfFileExists{glyphtounicode.tex}{%
+	\input{glyphtounicode}
+	\pdfgentounicode=1
+}{}
+
+% =========================================================
+% SECTION FORMATTING
+% =========================================================
+\titleformat{\section}
+	{\bfseries\large}
+	{}{0pt}{}
+	[\vspace{1.2pt}\titlerule]
+
+\titlespacing*{\section}
+	{0pt}
+	{5.0pt}
+	{3.0pt}
+
+% =========================================================
+% REUSABLE COMMANDS
+% =========================================================
+\newcommand{\resumeEntry}[4]{%
+	\begin{tabularx}{\textwidth}{@{}Xr@{}}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4}
+	\end{tabularx}%
+}
+
+\newcommand{\projectEntry}[2]{%
+	\begin{tabularx}{\textwidth}{@{}Xr@{}}
+		\textbf{#1} & \textit{#2}
+	\end{tabularx}%
+}
+
+\newenvironment{resumeItems}{%
+	\begin{itemize}[
+		label=\textbullet,
+		leftmargin=14pt,
+		labelsep=5pt,
+		itemsep=0.5pt,
+		topsep=1.0pt,
+		parsep=0pt,
+		partopsep=0pt
+	]
+}{%
+	\end{itemize}
+}
+
+\newcommand{\contactsep}{\qquad}
+
+\begin{document}
+
+\normalsize
+
+% =========================================================
+% HEADER
+% =========================================================
+\begin{center}
+	{\LARGE
+	 \textbf{Nahid Hasan Sagar}}\\[2.2pt]
+
+	{\footnotesize
+		\faMapMarker*\, Bloomington, Indiana
+		\contactsep
+		\href{tel:+19309041643}{\faPhone*\, +1 (930) 904-1643}
+		\contactsep
+		\href{mailto:nahidhasansagar@gmail.com}{\faEnvelope\, nahidhasansagar@gmail.com}
+	}\\[-0.2pt]
+
+	{\footnotesize
+		\href{https://www.linkedin.com/in/nahidhasansagar/}{\faLinkedinIn\, linkedin.com/in/nahidhasansagar}
+		\contactsep
+		\href{https://github.com/Sagar-DU}{\faGithub\, github.com/Sagar-DU}
+	}
+\end{center}
+
+\vspace{-5pt}
+
+% =========================================================
+% PROFESSIONAL SUMMARY
+% =========================================================
+\section*{PROFESSIONAL SUMMARY}
+
+M.S. candidate in Statistical Science at Indiana University Bloomington with strong quantitative training in statistical modeling, computational analysis, and evidence-based decision support. Experienced in building and validating high-stakes analytical workflows, synthesizing complex outputs into clear recommendations, and collaborating across teams in fast-paced environments.
+
+% =========================================================
+% EDUCATION
+% =========================================================
+\section*{EDUCATION}
+
+\resumeEntry
+	{Indiana University, College of Arts and Sciences}
+	{Bloomington, IN}
+	{Master of Science in Statistical Science}
+	{Expected May 2027}
+
+\vspace{0.4pt}
+
+\textit{Thesis: Time-Series Analysis Using Bayesian Additive Regression Trees (BART)}
+
+\vspace{0.5pt}
+
+\textbf{Graduate Coursework:}
+Introduction to Statistical Computing; Applied Statistical Computing;
+Fundamentals of Statistics I--II; Applied Linear Models I--II;
+Statistical Consulting; Research in Statistics
+
+\vspace{2.2pt}
+
+\resumeEntry
+	{University of Dhaka}
+	{Dhaka, Bangladesh}
+	{Bachelor of Science in Physics}
+	{August 2024}
+
+% =========================================================
+% EXPERIENCE
+% =========================================================
+\section*{RELEVANT EXPERIENCE}
+
+\resumeEntry
+	{Research Assistant, StatMIND Lab}
+	{2025 -- Present}
+	{Indiana University Bloomington}
+	{Bloomington, IN}
+
+\begin{resumeItems}
+	\item Perform in-depth quantitative analysis on high-dimensional datasets, translating modeling outputs into clear, decision-oriented findings for research stakeholders.
+
+	\item Implement and validate Bayesian computational routines in C++ using Rcpp and RcppArmadillo, ensuring numerical accuracy through unit testing and reproducible checks.
+
+	\item Built structured benchmarking and documentation workflows to evaluate performance tradeoffs across implementations, improving analytical transparency and speed.
+
+	\item Delivered a 4 to 5$\times$ speedup in core computations by moving numerically intensive work into compiled C++ code while preserving model reliability.
+\end{resumeItems}
+
+\vspace{1.3pt}
+
+\resumeEntry
+	{Teaching Assistant, Department of Statistics}
+	{2025 -- Present}
+	{Indiana University Bloomington}
+	{Bloomington, IN}
+
+\begin{resumeItems}
+	\item Communicate complex quantitative methods to diverse audiences through discussion sections, office hours, and targeted problem-solving support.
+
+	\item Evaluate approximately 200 assignments per cycle with strong attention to detail, consistency, and quality control under tight timelines.
+
+	\item Present structured feedback on statistical reasoning and interpretation, strengthening data-driven communication and analytical discipline.
+\end{resumeItems}
+
+\vspace{1.3pt}
+
+\resumeEntry
+	{Senior Mathematics Instructor}
+	{2016 -- 2025}
+	{Udvash Academic \& Admission Care}
+	{Dhaka, Bangladesh}
+
+\begin{resumeItems}
+	\item Taught and mentored more than 100,000 students through classroom instruction and national online learning platforms.
+
+	\item Managed multiple concurrent priorities, including curriculum planning, instruction delivery, and progress tracking in high-volume settings.
+
+	\item Developed concise explanatory materials and presentations to communicate technical content with clarity and impact.
+\end{resumeItems}
+
+% =========================================================
+% SELECTED PROJECTS
+% =========================================================
+\section*{SELECTED PROJECTS}
+
+\projectEntry
+	{M.S. Thesis: Time-Series Analysis Using BART}
+	{R, Bayesian Modeling}
+
+\begin{resumeItems}
+	\item Conduct research on Bayesian Additive Regression Trees for time-series analysis, evaluating predictive performance and model behavior under a rigorous statistical framework.
+\end{resumeItems}
+
+\vspace{0.7pt}
+
+\projectEntry
+	{Ordinary Least Squares from Scratch}
+	{Python, NumPy, Pandas, Matplotlib}
+
+\begin{resumeItems}
+	\item Developed an implementation of ordinary least squares regression from first principles, emphasizing matrix-based estimation, numerical validation, and clear model interpretation.
+\end{resumeItems}
+
+% =========================================================
+% TECHNICAL SKILLS
+% =========================================================
+\section*{TECHNICAL SKILLS}
+
+\textbf{Quantitative Methods:}
+Statistical inference, Bayesian modeling, time-series analysis, regression, model validation, predictive evaluation, experimental design, and computational statistics
+
+\textbf{Programming:}
+R, Python, C++, MATLAB, Bash, SQL
+
+\textbf{Tools and Platforms:}
+Git, GitHub, LaTeX, RStudio, VS Code, Jupyter, NumPy, Pandas, Matplotlib
+
+\textbf{Languages:}
+Bengali (native), English (fluent), Hindi (conversational), Urdu (conversational)
+
+% =========================================================
+% LEADERSHIP AND HONORS
+% =========================================================
+\section*{LEADERSHIP \& ACTIVITIES}
+
+\begin{resumeItems}
+	\item Attended the 2026 Velocity Conference at UC Berkeley as an Indiana University representative for the science community.
+
+	% \item Collaborated on the development of a comprehensive online Linear Algebra curriculum during the COVID-19 pandemic.
+
+	\item Co-organized the Australian Mathematics Competition in Bangladesh in 2014.
+\end{resumeItems}
+
+\end{document}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  17 SEP 2026 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  7 AUG 2026 03:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main/Nahid_Hasan_Sagar_Resume.tex"
-(/Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main/Nahid_Hasan_Sagar_Resume.tex
+**"/Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main/Susquehanna/resume-for-susquehanna.tex"
+(/Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main/Susquehanna/resume-for-susquehanna.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -305,8 +305,8 @@ File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 86.
- (./Nahid_Hasan_Sagar_Resume.aux)
-\openout1 = `Nahid_Hasan_Sagar_Resume.aux'.
+ (./resume-for-susquehanna.aux)
+\openout1 = `resume-for-susquehanna.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
@@ -336,14 +336,14 @@ LaTeX Font Info:    ... okay on input line 86.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(34.68929pt, 544.91643pt, 34.68929pt)
-* v-part:(T,H,B)=(28.90755pt, 740.0452pt, 26.01724pt)
+* v-part:(T,H,B)=(21.68121pt, 747.27153pt, 26.01724pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=544.91643pt
-* \textheight=740.0452pt
+* \textheight=747.27153pt
 * \oddsidemargin=-37.5807pt
 * \evensidemargin=-37.5807pt
-* \topmargin=-80.36244pt
+* \topmargin=-87.58878pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -378,9 +378,9 @@ LaTeX Font Info:    ... okay on input line 86.
 \c@mv@tabular=\count315
 \c@mv@boldtabular=\count316
 Package hyperref Info: Link coloring OFF on input line 86.
- (./Nahid_Hasan_Sagar_Resume.out) (./Nahid_Hasan_Sagar_Resume.out)
+ (./resume-for-susquehanna.out) (./resume-for-susquehanna.out)
 \@outlinefile=\write3
-\openout3 = `Nahid_Hasan_Sagar_Resume.out'.
+\openout3 = `resume-for-susquehanna.out'.
 
 LaTeX Info: Redefining \microtypecontext on input line 86.
 Package microtype Info: Applying patch `item' on input line 86.
@@ -421,32 +421,32 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 117.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 171.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 168.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 171.
+(Font)              scaled to size 10.0pt on input line 168.
  [1
 
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (./Nahid_Hasan_Sagar_Resume.aux)
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (./resume-for-susquehanna.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `Nahid_Hasan_Sagar_Resume.out' has not changed.
+Package rerunfilecheck Info: File `resume-for-susquehanna.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16499 strings out of 467525
- 284966 string characters out of 5418982
- 737152 words of memory out of 5000000
+ 16497 strings out of 467525
+ 284918 string characters out of 5418982
+ 740144 words of memory out of 5000000
  45176 multiletter control sequences out of 15000+600000
- 652104 words of font info for 76 fonts, out of 8000000 for 9000
+ 652012 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1115b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1125b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on Nahid_Hasan_Sagar_Resume.pdf (1 page, 166045 bytes).
+Output written on resume-for-susquehanna.pdf (1 page, 166397 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

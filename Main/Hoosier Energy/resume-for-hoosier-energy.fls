@@ -1,9 +1,9 @@
-PWD /Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main
+PWD /Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main/Hoosier Energy
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main/Nahid_Hasan_Sagar_Resume.tex
-OUTPUT Nahid_Hasan_Sagar_Resume.log
+INPUT /Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main/Hoosier Energy/resume-for-hoosier-energy.tex
+OUTPUT resume-for-hoosier-energy.log
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/size10.clo
@@ -151,21 +151,21 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT ./Nahid_Hasan_Sagar_Resume.aux
-INPUT ./Nahid_Hasan_Sagar_Resume.aux
-INPUT Nahid_Hasan_Sagar_Resume.aux
-OUTPUT Nahid_Hasan_Sagar_Resume.aux
+INPUT ./resume-for-hoosier-energy.aux
+INPUT ./resume-for-hoosier-energy.aux
+INPUT resume-for-hoosier-energy.aux
+OUTPUT resume-for-hoosier-energy.aux
 INPUT /usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-INPUT Nahid_Hasan_Sagar_Resume.out
-INPUT Nahid_Hasan_Sagar_Resume.out
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-OUTPUT Nahid_Hasan_Sagar_Resume.out
-OUTPUT Nahid_Hasan_Sagar_Resume.pdf
+INPUT ./resume-for-hoosier-energy.out
+INPUT ./resume-for-hoosier-energy.out
+INPUT resume-for-hoosier-energy.out
+INPUT resume-for-hoosier-energy.out
+INPUT ./resume-for-hoosier-energy.out
+INPUT ./resume-for-hoosier-energy.out
+OUTPUT resume-for-hoosier-energy.out
+OUTPUT resume-for-hoosier-energy.pdf
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
@@ -200,12 +200,11 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.e
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
-INPUT Nahid_Hasan_Sagar_Resume.aux
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-INPUT ./Nahid_Hasan_Sagar_Resume.out
+INPUT resume-for-hoosier-energy.aux
+INPUT ./resume-for-hoosier-energy.out
+INPUT ./resume-for-hoosier-energy.out
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmb.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/ztmr.pfb

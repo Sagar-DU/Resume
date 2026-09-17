@@ -1,0 +1,226 @@
+\documentclass[10pt,letterpaper]{article}
+
+% =========================================================
+% PAGE AND FONT SETUP
+% =========================================================
+\usepackage[
+  letterpaper,
+  left=0.48in,
+  right=0.48in,
+  top=0.40in,
+  bottom=0.36in
+]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{xurl}
+\usepackage{microtype}
+
+\pagestyle{empty}
+\raggedbottom
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{2em}
+
+\urlstyle{same}
+
+\IfFileExists{glyphtounicode.tex}{%
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+}{}
+
+% =========================================================
+% SECTION FORMATTING
+% =========================================================
+\titleformat{\section}
+  {\bfseries\large}
+  {}{0pt}{}
+  [\vspace{1.2pt}\titlerule]
+
+\titlespacing*{\section}
+  {0pt}
+  {5.0pt}
+  {3.0pt}
+
+% =========================================================
+% REUSABLE COMMANDS
+% =========================================================
+\newcommand{\resumeEntry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}%
+}
+
+\newenvironment{resumeItems}{%
+  \begin{itemize}[
+    label=\textbullet,
+    leftmargin=14pt,
+    labelsep=5pt,
+    itemsep=0.5pt,
+    topsep=1.0pt,
+    parsep=0pt,
+    partopsep=0pt
+  ]
+}{%
+  \end{itemize}
+}
+
+\newcommand{\contactsep}{\qquad}
+
+\begin{document}
+
+\normalsize
+
+% =========================================================
+% HEADER
+% =========================================================
+\begin{center}
+  {\LARGE
+   \textbf{Nahid Hasan Sagar}}\\[2.2pt]
+
+  {\footnotesize
+    \faMapMarker*\, Bloomington, Indiana
+    \contactsep
+    \href{tel:+19309041643}{\faPhone*\, +1 (930) 904-1643}
+    \contactsep
+    \href{mailto:nahidhasansagar@gmail.com}{\faEnvelope\, nahidhasansagar@gmail.com}
+  }\\[-0.2pt]
+
+  {\footnotesize
+    \href{https://www.linkedin.com/in/nahidhasansagar/}{\faLinkedinIn\, linkedin.com/in/nahidhasansagar}
+    \contactsep
+    \href{https://github.com/Sagar-DU}{\faGithub\, github.com/Sagar-DU}
+  }
+\end{center}
+
+\vspace{-5pt}
+
+% =========================================================
+% SUMMARY
+% =========================================================
+\section*{PROFESSIONAL SUMMARY}
+
+Master's candidate in Statistical Science at Indiana University Bloomington with a strong quantitative foundation in data analysis, reporting, and decision support. Skilled in Excel-based financial analysis, trend review, reconciliation support, and communicating results clearly to technical and non-technical audiences. Experienced in benchmarking, validating data quality, and building reproducible analytical workflows using Python, R, and SQL. Interested in supporting accounting and finance operations in a regulated, service-oriented environment such as Hoosier Energy.
+
+% =========================================================
+% EDUCATION
+% =========================================================
+\section*{EDUCATION}
+
+\resumeEntry
+  {Indiana University, College of Arts and Sciences}
+  {Bloomington, IN}
+  {Master of Science in Statistical Science}
+  {Expected May 2027}
+
+\vspace{0.4pt}
+
+\textbf{Relevant Coursework:} Statistical Consulting; Applied Statistical Computing; Applied Linear Models; Fundamentals of Statistics; Introduction to Analysis
+
+\vspace{2.2pt}
+
+\resumeEntry
+  {University of Dhaka}
+  {Dhaka, Bangladesh}
+  {Bachelor of Science in Physics}
+  {August 2024}
+
+% =========================================================
+% EXPERIENCE
+% =========================================================
+\section*{EXPERIENCE}
+
+\resumeEntry
+  {Research Assistant, StatMIND Lab}
+  {2025 -- Present}
+  {Indiana University Bloomington}
+  {Bloomington, IN}
+
+\begin{resumeItems}
+  \item Built and validated computational routines for high-dimensional data analysis, improving efficiency and reproducibility of statistical workflows used in research settings.
+
+  \item Developed benchmarking procedures to compare runtime, scalability, and output consistency across implementations, supporting evidence-based analysis and performance evaluation.
+
+  \item Analyzed large, complex datasets to identify patterns, validate model outputs, and summarize findings for technical stakeholders.
+
+  \item Maintained detailed documentation and testing procedures to support data integrity, traceability, and reliable reporting.
+\end{resumeItems}
+
+\vspace{1.3pt}
+
+\resumeEntry
+  {Teaching Assistant, Department of Statistics}
+  {2025 -- Present}
+  {Indiana University Bloomington}
+  {Bloomington, IN}
+
+\begin{resumeItems}
+  \item Support undergraduate statistics courses through classroom instruction, grading, and individualized student guidance.
+
+  \item Evaluate assignments and provide constructive feedback on analytical reasoning, interpretation, and quantitative problem solving.
+
+  \item Hold office hours and exam review sessions to strengthen students' understanding of statistical methods and reasoning.
+\end{resumeItems}
+
+\vspace{1.3pt}
+
+\resumeEntry
+  {Senior Mathematics Instructor}
+  {2016 -- 2025}
+  {Udvash Academic \& Admission Care}
+  {Dhaka, Bangladesh}
+
+\begin{resumeItems}
+  \item Taught and mentored more than 100,000 students through structured instruction, comparative analysis, and targeted academic planning.
+
+  \item Designed practice materials and review frameworks to improve performance tracking, problem solving, and concept retention across large student groups.
+
+  \item Translated complex quantitative concepts into clear, actionable explanations for students with varied academic backgrounds.
+\end{resumeItems}
+
+% =========================================================
+% SKILLS
+% =========================================================
+\section*{TECHNICAL SKILLS}
+
+\textbf{Accounting \& Finance Support:} Excel, reconciliation support, variance analysis, trend analysis, data validation, financial statement review, reporting \newline
+\textbf{Analytics Tools:} Microsoft Excel, Python, R, SQL, Git, LaTeX, Jupyter, PowerPoint \newline
+\textbf{Core Strengths:} attention to detail, problem solving, communication, organization, time management, documentation, teamwork
+
+% =========================================================
+% PROJECTS
+% =========================================================
+\section*{SELECTED PROJECTS}
+
+\resumeEntry
+  {Time-Series Analysis Using Bayesian Additive Regression Trees}
+  {R, Bayesian Modeling}
+  {Indiana University Bloomington}
+  {2025 -- Present}
+
+\begin{resumeItems}
+  \item Conduct thesis research on Bayesian tree-based methods for time-series analysis, emphasizing model interpretation, validation, and performance assessment.
+\end{resumeItems}
+
+\vspace{0.7pt}
+
+\resumeEntry
+  {Ordinary Least Squares from Scratch}
+  {Python, NumPy, Pandas, Matplotlib}
+  {Independent Project}
+  {2025}
+
+\begin{resumeItems}
+  \item Built a transparent implementation of regression estimation from first principles, reinforcing matrix operations, data interpretation, and model diagnostics.
+\end{resumeItems}
+
+\end{document}

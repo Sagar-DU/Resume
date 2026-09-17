@@ -1,9 +1,9 @@
-PWD /Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main
+PWD /Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/IMC
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/Main/Nahid_Hasan_Sagar_Resume.tex
-OUTPUT Nahid_Hasan_Sagar_Resume.log
+INPUT /Users/nahidhasansagar/Library/CloudStorage/OneDrive-IndianaUniversity/MS at IU/Resume/IMC/Resume-for-imc.tex
+OUTPUT Resume-for-imc.log
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/size10.clo
@@ -151,21 +151,21 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT ./Nahid_Hasan_Sagar_Resume.aux
-INPUT ./Nahid_Hasan_Sagar_Resume.aux
-INPUT Nahid_Hasan_Sagar_Resume.aux
-OUTPUT Nahid_Hasan_Sagar_Resume.aux
+INPUT ./Resume-for-imc.aux
+INPUT ./Resume-for-imc.aux
+INPUT Resume-for-imc.aux
+OUTPUT Resume-for-imc.aux
 INPUT /usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-INPUT Nahid_Hasan_Sagar_Resume.out
-INPUT Nahid_Hasan_Sagar_Resume.out
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-OUTPUT Nahid_Hasan_Sagar_Resume.out
-OUTPUT Nahid_Hasan_Sagar_Resume.pdf
+INPUT ./Resume-for-imc.out
+INPUT ./Resume-for-imc.out
+INPUT Resume-for-imc.out
+INPUT Resume-for-imc.out
+INPUT ./Resume-for-imc.out
+INPUT ./Resume-for-imc.out
+OUTPUT Resume-for-imc.out
+OUTPUT Resume-for-imc.pdf
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
@@ -200,9 +200,9 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.e
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
-INPUT Nahid_Hasan_Sagar_Resume.aux
-INPUT ./Nahid_Hasan_Sagar_Resume.out
-INPUT ./Nahid_Hasan_Sagar_Resume.out
+INPUT Resume-for-imc.aux
+INPUT ./Resume-for-imc.out
+INPUT ./Resume-for-imc.out
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

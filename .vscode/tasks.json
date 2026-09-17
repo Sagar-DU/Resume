@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "compile-susquehanna-resume",
+			"type": "shell",
+			"command": "latexmk",
+			"args": [
+				"-pdf",
+				"-interaction=nonstopmode",
+				"-halt-on-error",
+				"Main/Susquehanna/resume-for-susquehanna.tex"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}

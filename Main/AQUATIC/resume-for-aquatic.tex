@@ -1,0 +1,158 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[
+	letterpaper,
+	left=0.48in,
+	right=0.48in,
+	top=0.40in,
+	bottom=0.36in
+]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{xurl}
+\usepackage{microtype}
+
+\pagestyle{empty}
+\raggedbottom
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{2em}
+\urlstyle{same}
+
+\IfFileExists{glyphtounicode.tex}{%
+	\input{glyphtounicode}
+	\pdfgentounicode=1
+}{}
+
+\titleformat{\section}
+	{\bfseries\large}{}{0pt}{}
+	[\vspace{1.2pt}\titlerule]
+\titlespacing*{\section}{0pt}{5.0pt}{3.0pt}
+
+\newcommand{\resumeEntry}[4]{%
+	\begin{tabularx}{\textwidth}{@{}Xr@{}}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4}
+	\end{tabularx}%
+}
+
+\newcommand{\projectEntry}[2]{%
+	\begin{tabularx}{\textwidth}{@{}Xr@{}}
+		\textbf{#1} & \textit{#2}
+	\end{tabularx}%
+}
+
+\newenvironment{resumeItems}{%
+	\begin{itemize}[
+		label=\textbullet,
+		leftmargin=14pt,
+		labelsep=5pt,
+		itemsep=0.5pt,
+		topsep=1.0pt,
+		parsep=0pt,
+		partopsep=0pt
+	]
+}{\end{itemize}}
+
+\newcommand{\contactsep}{\qquad}
+
+\begin{document}
+\normalsize
+
+\begin{center}
+	{\LARGE\textbf{Nahid Hasan Sagar}}\\[2.2pt]
+	{\footnotesize
+		\faMapMarker*\, Bloomington, Indiana
+		\contactsep
+		\href{tel:+19309041643}{\faPhone*\, +1 (930) 904-1643}
+		\contactsep
+		\href{mailto:nahidhasansagar@gmail.com}{\faEnvelope\, nahidhasansagar@gmail.com}
+	}\\[-0.2pt]
+	{\footnotesize
+		\href{https://www.linkedin.com/in/nahidhasansagar/}{\faLinkedinIn\, linkedin.com/in/nahidhasansagar}
+		\contactsep
+		\href{https://github.com/Sagar-DU}{\faGithub\, github.com/Sagar-DU}
+	}
+\end{center}
+
+\vspace{-5pt}
+
+\section*{PROFESSIONAL SUMMARY}
+
+M.S. candidate in Statistical Science at Indiana University Bloomington with a B.S. in Physics and experience developing quantitative research software in Python, R, and C++. Applies Bayesian modeling, statistical learning, time-series analysis, and numerical methods to data-intensive problems, with a focus on rigorous validation, reproducibility, and computational performance.
+
+\section*{EDUCATION}
+
+\resumeEntry
+	{Indiana University, College of Arts and Sciences}
+	{Bloomington, IN}
+	{Master of Science in Statistical Science}
+	{Expected May 2027}
+
+\vspace{0.4pt}
+\textit{Thesis: Time-Series Analysis Using Bayesian Additive Regression Trees (BART)}
+
+\vspace{0.5pt}
+\textbf{Relevant Coursework:} Introduction to Statistical Computing; Applied Statistical Computing; Fundamentals of Statistics I--II; Applied Linear Models I--II; Statistical Consulting; Research in Statistics; Introduction to Analysis I
+
+\vspace{2.2pt}
+\resumeEntry
+	{University of Dhaka}
+	{Dhaka, Bangladesh}
+	{Bachelor of Science in Physics}
+	{August 2024}
+
+\section*{RESEARCH EXPERIENCE}
+
+\resumeEntry
+	{Research Assistant, StatMIND Lab}
+	{2025 -- Present}
+	{Indiana University Bloomington}
+	{Bloomington, IN}
+
+\begin{resumeItems}
+	\item Develop Bayesian brain-mapping algorithms for high-dimensional neuroimaging data, translating statistical research methods into efficient C++ implementations integrated with R through Rcpp and RcppArmadillo.
+	\item Reproduce results from the original R package and validate the new implementation with unit tests, benchmark comparisons, and systematic numerical checks.
+	\item Achieve a 4--5$\times$ speedup in core computations, enabling faster iteration on large-scale datasets.
+	\item Build reproducible workflows to compare runtime, scalability, and computational performance across implementations.
+\end{resumeItems}
+
+\section*{SELECTED RESEARCH \& PROJECTS}
+
+\projectEntry
+	{M.S. Thesis: Time-Series Analysis Using BART}
+	{R, Bayesian Modeling}
+\begin{resumeItems}
+	\item Conduct research on Bayesian Additive Regression Trees for time-series analysis under the supervision of Dr. Matthew T. Pratola, evaluating model behavior for structured temporal data.
+\end{resumeItems}
+
+\vspace{0.7pt}
+\projectEntry
+	{Ordinary Least Squares from Scratch}
+	{Python, NumPy, Pandas, Matplotlib}
+\begin{resumeItems}
+	\item Implement ordinary least squares regression from first principles using matrix-based estimation, with transparent computation and data-analysis visualizations.
+\end{resumeItems}
+
+\section*{TECHNICAL SKILLS}
+
+\textbf{Programming:} Python, R, C++, C, MATLAB, Bash\\
+\textbf{Quantitative Methods:} Bayesian inference, BART, MCMC, time-series analysis, linear and logistic regression, mixed-effects models, bootstrap methods, numerical optimization, model selection, cross-validation, classification metrics, predictive model evaluation\\
+\textbf{Research Engineering:} Algorithm benchmarking, code profiling, unit testing, reproducible workflows, Git, GitHub, LaTeX, RStudio, VS Code
+
+\section*{LEADERSHIP \& HONORS}
+
+\begin{resumeItems}
+	\item Attended the 2026 Velocity Conference at UC Berkeley as an Indiana University representative for the science community.
+	\item Co-organized the Australian Mathematics Competition in Bangladesh in 2014.
+	\item Taught and mentored more than 100,000 students through classroom instruction and national online learning platforms as a Senior Mathematics Instructor.
+\end{resumeItems}
+
+\end{document}
